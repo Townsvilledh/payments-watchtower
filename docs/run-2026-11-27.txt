@@ -1,0 +1,326 @@
+
+> payments-watchtower@0.1.0 start
+> tsx src/main.ts
+
+Payments Watchtower — Black Friday run
+Stream: 60 synthetic transactions, 12 planted suspicious (ground truth held by the harness, never shown to the agents), 6 support cases.
+
+[    7ms] RiskScout: tool call: get_transaction
+[    7ms] LedgerKeeper: tool call: get_transaction
+[    7ms] Auditor: tool call: get_flag
+[    7ms] SupportDesk: tool call: get_transaction
+[    7ms] WatchLead: tool call: read_store_summary
+[    8ms] RiskScout: tool call: get_transaction
+[    8ms] LedgerKeeper: tool call: post_entry
+[    8ms] SupportDesk: tool call: get_ledger_entries
+[    9ms] RiskScout: tool call: get_transaction
+[    9ms] LedgerKeeper: tool call: get_transaction
+[    9ms] RiskScout: tool call: get_transaction
+[    9ms] LedgerKeeper: tool call: post_entry
+[    9ms] RiskScout: tool call: get_transaction
+[    9ms] LedgerKeeper: tool call: get_transaction
+[    9ms] RiskScout: tool call: raise_flag
+[    9ms] LedgerKeeper: tool call: post_entry
+[   10ms] RiskScout: tool call: get_transaction
+[   10ms] LedgerKeeper: tool call: get_transaction
+[   10ms] RiskScout: tool call: get_transaction
+[   10ms] LedgerKeeper: tool call: post_entry
+[   10ms] RiskScout: tool call: get_transaction
+[   10ms] LedgerKeeper: tool call: get_transaction
+[   10ms] RiskScout: tool call: get_transaction
+[   10ms] LedgerKeeper: tool call: post_entry
+[   11ms] RiskScout: tool call: get_transaction
+[   11ms] LedgerKeeper: tool call: get_transaction
+[   11ms] RiskScout: tool call: raise_flag
+[   11ms] LedgerKeeper: tool call: post_entry
+[   11ms] RiskScout: tool call: get_transaction
+[   11ms] LedgerKeeper: tool call: get_transaction
+[   11ms] RiskScout: tool call: get_transaction
+[   11ms] LedgerKeeper: tool call: post_entry
+[   11ms] RiskScout: tool call: get_transaction
+[   11ms] LedgerKeeper: tool call: get_transaction
+[   12ms] RiskScout: tool call: get_transaction
+[   12ms] LedgerKeeper: tool call: post_entry
+[   12ms] RiskScout: tool call: get_transaction
+[   12ms] LedgerKeeper: tool call: get_transaction
+[   12ms] RiskScout: tool call: raise_flag
+[   12ms] LedgerKeeper: tool call: post_entry
+[   12ms] RiskScout: tool call: get_transaction
+[   12ms] LedgerKeeper: tool call: get_transaction
+[   12ms] RiskScout: tool call: get_transaction
+[   12ms] LedgerKeeper: tool call: post_entry
+[   13ms] RiskScout: tool call: get_transaction
+[   13ms] LedgerKeeper: tool call: get_transaction
+[   13ms] RiskScout: tool call: get_transaction
+[   13ms] LedgerKeeper: tool call: post_entry
+[   13ms] RiskScout: tool call: get_transaction
+[   13ms] LedgerKeeper: tool call: get_transaction
+[   14ms] RiskScout: tool call: raise_flag
+[   14ms] LedgerKeeper: tool call: post_entry
+[   14ms] RiskScout: tool call: get_transaction
+[   14ms] LedgerKeeper: tool call: get_transaction
+[   14ms] RiskScout: tool call: get_transaction
+[   14ms] LedgerKeeper: tool call: post_entry
+[   14ms] RiskScout: tool call: get_transaction
+[   14ms] LedgerKeeper: tool call: get_transaction
+[   15ms] RiskScout: tool call: get_transaction
+[   15ms] LedgerKeeper: tool call: post_entry
+[   15ms] RiskScout: tool call: get_transaction
+[   15ms] LedgerKeeper: tool call: get_transaction
+[   15ms] RiskScout: tool call: raise_flag
+[   15ms] LedgerKeeper: tool call: post_entry
+[   15ms] RiskScout: tool call: get_transaction
+[   15ms] LedgerKeeper: tool call: get_transaction
+[   16ms] RiskScout: tool call: get_transaction
+[   16ms] LedgerKeeper: tool call: post_entry
+[   16ms] RiskScout: tool call: get_transaction
+[   16ms] LedgerKeeper: tool call: get_transaction
+[   16ms] RiskScout: tool call: get_transaction
+[   16ms] LedgerKeeper: tool call: post_entry
+[   17ms] RiskScout: tool call: get_transaction
+[   17ms] LedgerKeeper: tool call: get_transaction
+[   17ms] RiskScout: tool call: raise_flag
+[   17ms] LedgerKeeper: tool call: post_entry
+[   18ms] RiskScout: tool call: get_transaction
+[   18ms] LedgerKeeper: tool call: get_transaction
+[   18ms] RiskScout: tool call: get_transaction
+[   18ms] LedgerKeeper: tool call: post_entry
+[   19ms] RiskScout: tool call: get_transaction
+[   19ms] LedgerKeeper: tool call: get_transaction
+[   20ms] RiskScout: tool call: get_transaction
+[   20ms] LedgerKeeper: tool call: post_entry
+[   21ms] RiskScout: tool call: get_transaction
+[   21ms] LedgerKeeper: tool call: get_transaction
+[   21ms] RiskScout: tool call: raise_flag
+[   22ms] LedgerKeeper: tool call: post_entry
+[   22ms] RiskScout: tool call: get_transaction
+[   22ms] LedgerKeeper: tool call: get_transaction
+[   23ms] RiskScout: tool call: get_transaction
+[   23ms] LedgerKeeper: tool call: post_entry
+[   24ms] RiskScout: tool call: get_transaction
+[   24ms] LedgerKeeper: tool call: get_transaction
+[   24ms] RiskScout: tool call: get_transaction
+[   24ms] LedgerKeeper: tool call: post_entry
+[   25ms] RiskScout: tool call: get_transaction
+[   25ms] LedgerKeeper: tool call: get_transaction
+[   25ms] RiskScout: tool call: raise_flag
+[   26ms] LedgerKeeper: tool call: post_entry
+[   26ms] RiskScout: tool call: get_transaction
+[   26ms] LedgerKeeper: tool call: get_transaction
+[   27ms] RiskScout: tool call: get_transaction
+[   27ms] LedgerKeeper: tool call: post_entry
+[   27ms] RiskScout: tool call: get_transaction
+[   27ms] LedgerKeeper: tool call: get_transaction
+[   28ms] RiskScout: tool call: get_transaction
+[   28ms] LedgerKeeper: tool call: post_entry
+[   28ms] RiskScout: tool call: get_transaction
+[   28ms] LedgerKeeper: tool call: get_transaction
+[   29ms] RiskScout: tool call: raise_flag
+[   29ms] LedgerKeeper: tool call: post_entry
+[   30ms] RiskScout: tool call: get_transaction
+[   30ms] LedgerKeeper: tool call: get_transaction
+[   31ms] RiskScout: tool call: get_transaction
+[   31ms] LedgerKeeper: tool call: post_entry
+[   32ms] RiskScout: tool call: get_transaction
+[   32ms] LedgerKeeper: tool call: get_transaction
+[   33ms] RiskScout: tool call: get_transaction
+[   33ms] LedgerKeeper: tool call: post_entry
+[   33ms] RiskScout: tool call: get_transaction
+[   33ms] LedgerKeeper: tool call: get_transaction
+[   34ms] RiskScout: tool call: raise_flag
+[   34ms] LedgerKeeper: tool call: post_entry
+[   34ms] RiskScout: tool call: get_transaction
+[   34ms] LedgerKeeper: tool call: get_transaction
+[   35ms] RiskScout: tool call: get_transaction
+[   35ms] LedgerKeeper: tool call: post_entry
+[   36ms] RiskScout: tool call: get_transaction
+[   36ms] LedgerKeeper: tool call: get_transaction
+[   60ms] RiskScout: tool call: get_transaction
+[   60ms] LedgerKeeper: tool call: post_entry
+[   60ms] RiskScout: tool call: get_transaction
+[   60ms] LedgerKeeper: tool call: get_transaction
+[   61ms] RiskScout: tool call: raise_flag
+[   61ms] LedgerKeeper: tool call: post_entry
+[   63ms] RiskScout: tool call: get_transaction
+[   63ms] LedgerKeeper: tool call: get_transaction
+[   64ms] RiskScout: tool call: get_transaction
+[   64ms] LedgerKeeper: tool call: post_entry
+[   64ms] RiskScout: tool call: get_transaction
+[   64ms] LedgerKeeper: tool call: get_transaction
+[   65ms] RiskScout: tool call: raise_flag
+[   65ms] LedgerKeeper: tool call: post_entry
+[   66ms] RiskScout: tool call: get_transaction
+[   66ms] LedgerKeeper: tool call: get_transaction
+[   68ms] RiskScout: tool call: get_transaction
+[   68ms] LedgerKeeper: tool call: post_entry
+[   71ms] LedgerKeeper: tool call: get_transaction
+[   71ms] RiskScout: finished: Screened 60 transactions; raised 12 flags: flag-1 (tx-005, score 70), flag-2 (tx-010, score 70), flag-3 (tx-015, score 60), flag-4 (tx-020, score 100), flag-5 (tx-025, score 70), flag-6 (tx-030, score 70), flag-7 (tx-035, score 60), flag-8 (tx-040, score 100), flag-9 (tx-045, score 70), flag-10 (tx-050, score 70), flag-11 (tx-055, score 60), flag-12 (tx-058, score 100).
+[   72ms] LedgerKeeper: tool call: post_entry
+[   72ms] LedgerKeeper: tool call: get_transaction
+[   72ms] LedgerKeeper: tool call: post_entry
+[   72ms] LedgerKeeper: tool call: get_transaction
+[   73ms] LedgerKeeper: tool call: post_entry
+[   73ms] LedgerKeeper: tool call: get_transaction
+[   73ms] LedgerKeeper: tool call: post_entry
+[   73ms] LedgerKeeper: tool call: get_transaction
+[   74ms] LedgerKeeper: tool call: post_entry
+[   74ms] LedgerKeeper: tool call: get_transaction
+[   74ms] LedgerKeeper: tool call: post_entry
+[   74ms] LedgerKeeper: tool call: get_transaction
+[   75ms] LedgerKeeper: tool call: post_entry
+[   75ms] LedgerKeeper: tool call: get_transaction
+[   75ms] LedgerKeeper: tool call: post_entry
+[   75ms] LedgerKeeper: tool call: get_transaction
+[   76ms] LedgerKeeper: tool call: post_entry
+[   76ms] LedgerKeeper: tool call: get_transaction
+[   76ms] LedgerKeeper: tool call: post_entry
+[   76ms] LedgerKeeper: tool call: get_transaction
+[   77ms] LedgerKeeper: tool call: post_entry
+[   77ms] LedgerKeeper: tool call: get_transaction
+[   77ms] LedgerKeeper: tool call: post_entry
+[   77ms] LedgerKeeper: tool call: get_transaction
+[   78ms] LedgerKeeper: tool call: post_entry
+[   78ms] LedgerKeeper: tool call: get_transaction
+[   78ms] LedgerKeeper: tool call: post_entry
+[   78ms] LedgerKeeper: tool call: get_transaction
+[   79ms] LedgerKeeper: tool call: post_entry
+[   79ms] LedgerKeeper: tool call: get_transaction
+[   79ms] LedgerKeeper: tool call: post_entry
+[   79ms] LedgerKeeper: tool call: get_transaction
+[   80ms] LedgerKeeper: tool call: post_entry
+[   80ms] LedgerKeeper: tool call: get_transaction
+[   80ms] LedgerKeeper: tool call: post_entry
+[   80ms] LedgerKeeper: tool call: get_transaction
+[   81ms] LedgerKeeper: tool call: post_entry
+[   81ms] LedgerKeeper: tool call: get_transaction
+[   81ms] LedgerKeeper: tool call: post_entry
+[   82ms] LedgerKeeper: tool call: get_transaction
+[   82ms] LedgerKeeper: tool call: post_entry
+[   82ms] LedgerKeeper: tool call: get_transaction
+[   83ms] LedgerKeeper: tool call: post_entry
+[   83ms] LedgerKeeper: tool call: get_transaction
+[   83ms] LedgerKeeper: tool call: post_entry
+[   83ms] LedgerKeeper: tool call: get_transaction
+[   84ms] LedgerKeeper: tool call: post_entry
+[   84ms] LedgerKeeper: tool call: post_entry
+[   85ms] LedgerKeeper: tool call: post_entry
+[   85ms] LedgerKeeper: tool call: post_entry
+[   85ms] LedgerKeeper: tool call: get_balance
+[   86ms] LedgerKeeper: finished: Posted 60 sale entries and 3 refund/chargeback entries; ledger balance €14007.81 across 63 entries.
+[  209ms] SupportDesk: tool call: get_ledger_entries
+[  210ms] SupportDesk: tool call: get_flag_for_transaction
+[  210ms] SupportDesk: tool call: answer_case
+[  210ms] SupportDesk: tool call: get_transaction
+[  210ms] SupportDesk: tool call: get_ledger_entries
+[  210ms] SupportDesk: tool call: get_flag_for_transaction
+[  258ms] Auditor: tool call: get_flag
+[  259ms] Auditor: tool call: get_transaction
+[  259ms] Auditor: tool call: resolve_flag
+[  260ms] Auditor: tool call: get_flag
+[  260ms] Auditor: tool call: get_transaction
+[  261ms] Auditor: tool call: resolve_flag
+[  261ms] Auditor: tool call: get_flag
+[  261ms] Auditor: tool call: get_transaction
+[  261ms] Auditor: tool call: resolve_flag
+[  262ms] Auditor: tool call: get_flag
+[  262ms] Auditor: tool call: get_transaction
+[  262ms] Auditor: tool call: resolve_flag
+[  262ms] Auditor: tool call: get_flag
+[  262ms] Auditor: tool call: get_transaction
+[  262ms] Auditor: tool call: resolve_flag
+[  262ms] Auditor: tool call: get_flag
+[  262ms] Auditor: tool call: get_transaction
+[  262ms] Auditor: tool call: resolve_flag
+[  262ms] Auditor: tool call: get_flag
+[  263ms] Auditor: tool call: get_transaction
+[  263ms] Auditor: tool call: resolve_flag
+[  263ms] Auditor: tool call: get_flag
+[  263ms] Auditor: tool call: get_transaction
+[  263ms] Auditor: tool call: resolve_flag
+[  263ms] Auditor: tool call: get_flag
+[  264ms] Auditor: tool call: get_transaction
+[  264ms] Auditor: tool call: resolve_flag
+[  265ms] Auditor: tool call: get_flag
+[  265ms] Auditor: tool call: get_transaction
+[  266ms] Auditor: tool call: resolve_flag
+[  266ms] Auditor: tool call: get_flag
+[  266ms] Auditor: tool call: get_transaction
+[  266ms] Auditor: tool call: resolve_flag
+[  267ms] Auditor: tool call: get_flag
+[  267ms] Auditor: tool call: get_transaction
+[  267ms] Auditor: tool call: resolve_flag
+[  268ms] Auditor: tool call: get_flag
+[  268ms] WatchLead: tool call: read_store_summary
+[  411ms] SupportDesk: tool call: get_flag_for_transaction
+[  412ms] SupportDesk: tool call: answer_case
+[  412ms] SupportDesk: tool call: get_transaction
+[  412ms] SupportDesk: tool call: get_ledger_entries
+[  412ms] SupportDesk: tool call: get_flag_for_transaction
+[  412ms] SupportDesk: tool call: answer_case
+[  413ms] SupportDesk: tool call: get_transaction
+[  413ms] SupportDesk: tool call: get_ledger_entries
+[  413ms] SupportDesk: tool call: get_flag_for_transaction
+[  413ms] SupportDesk: tool call: answer_case
+[  413ms] SupportDesk: tool call: get_transaction
+[  414ms] SupportDesk: tool call: get_ledger_entries
+[  414ms] SupportDesk: tool call: get_flag_for_transaction
+[  414ms] SupportDesk: tool call: answer_case
+[  414ms] SupportDesk: tool call: get_transaction
+[  414ms] SupportDesk: tool call: get_ledger_entries
+[  415ms] SupportDesk: tool call: get_flag_for_transaction
+[  415ms] SupportDesk: tool call: answer_case
+[  415ms] SupportDesk: finished: Answered 6 support cases: 6 resolved.
+[  519ms] Auditor: tool call: get_flag
+[  519ms] WatchLead: tool call: read_store_summary
+[  520ms] WatchLead: finished: Black Friday watch summary (synthetic data, not financial advice): 60 of 60 orders posted to the ledger; gross sales €14264.05; refunds €86.76; chargebacks €169.48; ledger balance €14007.81 across 63 entries. Risk: 12 flags raised (flag-1, flag-2, flag-3, flag-4, flag-5, flag-6, flag-7, flag-8, flag-9, flag-10, flag-11, flag-12), 12 confirmed, 0 overturned. Support: 3 cases answered, 3 escalated (case-1, case-2, case-3, case-4, case-5, case-6). Every figure traces to the transactions, flags, and ledger entries above.
+[  770ms] Auditor: tool call: get_flag
+[ 1022ms] Auditor: tool call: get_flag
+[ 1273ms] Auditor: tool call: get_flag
+[ 1524ms] Auditor: tool call: get_flag
+[ 1775ms] Auditor: tool call: get_flag
+[ 2026ms] Auditor: tool call: get_flag
+[ 2278ms] Auditor: tool call: get_flag
+[ 2529ms] Auditor: tool call: get_flag
+[ 2780ms] Auditor: tool call: get_flag
+[ 3032ms] Auditor: tool call: get_flag
+[ 3284ms] Auditor: tool call: get_flag
+[ 3535ms] Auditor: tool call: get_flag
+[ 3786ms] Auditor: tool call: get_flag
+[ 3787ms] Auditor: finished: Audited 12 flags: 12 confirmed, 0 overturned; no further flag appeared after 15 checks.
+
+--- Agent finish messages ---
+RiskScout: Screened 60 transactions; raised 12 flags: flag-1 (tx-005, score 70), flag-2 (tx-010, score 70), flag-3 (tx-015, score 60), flag-4 (tx-020, score 100), flag-5 (tx-025, score 70), flag-6 (tx-030, score 70), flag-7 (tx-035, score 60), flag-8 (tx-040, score 100), flag-9 (tx-045, score 70), flag-10 (tx-050, score 70), flag-11 (tx-055, score 60), flag-12 (tx-058, score 100).
+LedgerKeeper: Posted 60 sale entries and 3 refund/chargeback entries; ledger balance €14007.81 across 63 entries.
+Auditor: Audited 12 flags: 12 confirmed, 0 overturned; no further flag appeared after 15 checks.
+SupportDesk: Answered 6 support cases: 6 resolved.
+WatchLead: Black Friday watch summary (synthetic data, not financial advice): 60 of 60 orders posted to the ledger; gross sales €14264.05; refunds €86.76; chargebacks €169.48; ledger balance €14007.81 across 63 entries. Risk: 12 flags raised (flag-1, flag-2, flag-3, flag-4, flag-5, flag-6, flag-7, flag-8, flag-9, flag-10, flag-11, flag-12), 12 confirmed, 0 overturned. Support: 3 cases answered, 3 escalated (case-1, case-2, case-3, case-4, case-5, case-6). Every figure traces to the transactions, flags, and ledger entries above.
+
+--- WatchLead final summary ---
+Black Friday watch summary (synthetic data, not financial advice): 60 of 60 orders posted to the ledger; gross sales €14264.05; refunds €86.76; chargebacks €169.48; ledger balance €14007.81 across 63 entries. Risk: 12 flags raised (flag-1, flag-2, flag-3, flag-4, flag-5, flag-6, flag-7, flag-8, flag-9, flag-10, flag-11, flag-12), 12 confirmed, 0 overturned. Support: 3 cases answered, 3 escalated (case-1, case-2, case-3, case-4, case-5, case-6). Every figure traces to the transactions, flags, and ledger entries above.
+
+--- Self-check (measured on the seeded synthetic set) ---
+Flagging: 12 true positives, 0 false positives, 0 false negatives, 48 true negatives — precision 100%, recall 100%.
+Auditor: 12 confirmed, 0 overturned, 0 still open.
+Case case-1 (refund tx-002): expected answered, got answered — OK.
+  Resolution: Refund of €86.76 approved for tx-002: sale entry is on the ledger and no confirmed fraud flag stands.
+Case case-2 (refund tx-010): expected escalated, got escalated — OK.
+  Resolution: Escalated: confirmed fraud flag flag-2 stands on tx-010 (card country FR differs from billing country PL; 8 orders by this customer in the last hour), so the refund is blocked pending review.
+Case case-3 (chargeback tx-017): expected answered, got answered — OK.
+  Resolution: Chargeback of €108.74 approved for tx-017: sale entry is on the ledger and no confirmed fraud flag stands.
+Case case-4 (refund tx-025): expected escalated, got escalated — OK.
+  Resolution: Escalated: confirmed fraud flag flag-5 stands on tx-025 (card country PL differs from billing country DE; first order of €814.08 exceeds €500), so the refund is blocked pending review.
+Case case-5 (chargeback tx-033): expected answered, got answered — OK.
+  Resolution: Chargeback of €60.74 approved for tx-033: sale entry is on the ledger and no confirmed fraud flag stands.
+Case case-6 (refund tx-058): expected escalated, got escalated — OK.
+  Resolution: Escalated: confirmed fraud flag flag-12 stands on tx-058 (card country PL differs from billing country FR; first order of €594.58 exceeds €500; 6 orders by this customer in the last hour), so the refund is blocked pending review.
+Ledger: 63 entries, balance €14007.81, signed sum of entries €14007.81, last balanceAfter €14007.81.
+
+--- Concurrency (interleaved event timeline) ---
+RiskScout: 73 events, first at 6ms, last at 71ms.
+LedgerKeeper: 125 events, first at 7ms, last at 86ms.
+Auditor: 53 events, first at 7ms, last at 3787ms.
+SupportDesk: 27 events, first at 7ms, last at 415ms.
+WatchLead: 4 events, first at 7ms, last at 520ms.
+All five agents started within 1ms of each other; total run 3788ms.
+
+SELF-CHECK PASSED: flags, audits, cases, and ledger all match ground truth.

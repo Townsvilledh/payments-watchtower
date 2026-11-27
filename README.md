@@ -73,13 +73,20 @@ npm run spike
 
 ## Build status
 
-Prepared scaffold: module wiring, agent definitions, shared store, loop
-driver, and the framework spike are in place and verified
-(`npm run typecheck`, `npm start`, `npm run spike`). Per the hackathon
-rules — *the substance of the work must happen during the event* — the
-synthetic stream generator, the endpoint decision policy, the tool bodies,
-and the concurrent run are implemented during the event window
-(26–27 November). The step-by-step plan is in `BUILD_PLAN.md`.
+Built during the hackathon event window (26–27 November 2026) per
+`BUILD_PLAN.md`: the synthetic stream generator, the endpoint decision
+policy, the tool bodies, and the concurrent run are all implemented and
+verified. `npm run typecheck`, `npm start`, and `npm run spike` all pass
+from a clean clone (`npm install && npm start`).
+
+Verified run (27 November 2026, seeded synthetic set — full log in
+`docs/run-2026-11-27.txt`): 60 transactions screened, 12 flags raised with
+100% precision and 100% recall against the planted ground truth, all 12
+flags confirmed by Auditor, all 6 support cases resolved as expected
+(3 refunds/chargebacks approved, 3 escalated on confirmed flags), ledger
+balance €14,007.81 across 63 entries equalling the signed sum of entries.
+Total run time under 4 seconds; all five agents started within the same
+millisecond and worked concurrently.
 
 ## Layout
 
